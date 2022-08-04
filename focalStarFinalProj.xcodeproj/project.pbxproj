@@ -15,6 +15,9 @@
 		BD09A6CD2899A1D9001ECF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD09A6CC2899A1D9001ECF78 /* Assets.xcassets */; };
 		BD09A6D02899A1D9001ECF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD09A6CE2899A1D9001ECF78 /* LaunchScreen.storyboard */; };
 		BD09A6FB289C26CF001ECF78 /* AffirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09A6FA289C26CF001ECF78 /* AffirmViewController.swift */; };
+		CD9E11B7289C3AD300475975 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E11B6289C3AD300475975 /* CalendarViewController.swift */; };
+		CD9E11B9289C3AE200475975 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E11B8289C3AE200475975 /* ToDoViewController.swift */; };
+		CD9E11BB289C3AF200475975 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9E11BA289C3AF200475975 /* HabitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		BD09A6CF2899A1D9001ECF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD09A6D12899A1D9001ECF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD09A6FA289C26CF001ECF78 /* AffirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmViewController.swift; sourceTree = "<group>"; };
+		CD9E11B6289C3AD300475975 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		CD9E11B8289C3AE200475975 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		CD9E11BA289C3AF200475975 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +68,11 @@
 			children = (
 				BD09A6C02899A1D9001ECF78 /* AppDelegate.swift */,
 				BD09A6C22899A1D9001ECF78 /* SceneDelegate.swift */,
-				BD09A6C42899A1D9001ECF78 /* ViewController.swift */,
 				BD09A6C62899A1D9001ECF78 /* Main.storyboard */,
+				BD09A6C42899A1D9001ECF78 /* ViewController.swift */,
+				CD9E11BA289C3AF200475975 /* HabitViewController.swift */,
+				CD9E11B6289C3AD300475975 /* CalendarViewController.swift */,
+				CD9E11B8289C3AE200475975 /* ToDoViewController.swift */,
 				BD09A6FA289C26CF001ECF78 /* AffirmViewController.swift */,
 				BD09A6CC2899A1D9001ECF78 /* Assets.xcassets */,
 				BD09A6CE2899A1D9001ECF78 /* LaunchScreen.storyboard */,
@@ -144,11 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9E11B7289C3AD300475975 /* CalendarViewController.swift in Sources */,
 				BD09A6C52899A1D9001ECF78 /* ViewController.swift in Sources */,
 				BD09A6C12899A1D9001ECF78 /* AppDelegate.swift in Sources */,
+				CD9E11BB289C3AF200475975 /* HabitViewController.swift in Sources */,
 				BD09A6C32899A1D9001ECF78 /* SceneDelegate.swift in Sources */,
 				BD09A6FB289C26CF001ECF78 /* AffirmViewController.swift in Sources */,
 				BD09A6CB2899A1D9001ECF78 /* focalStarFinalProj.xcdatamodeld in Sources */,
+				CD9E11B9289C3AE200475975 /* ToDoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

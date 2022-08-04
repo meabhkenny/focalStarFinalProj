@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Calendar View Controller-->
         <scene sceneID="CFj-uo-a0S">
             <objects>
-                <viewController id="1bW-HZ-KN5" sceneMemberID="viewController">
+                <viewController id="1bW-HZ-KN5" customClass="CalendarViewController" customModule="focalStarFinalProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xig-ph-XR1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="69.642857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--To Do View Controller-->
         <scene sceneID="055-D2-Ol7">
             <objects>
-                <viewController id="8Si-72-FGO" sceneMemberID="viewController">
+                <viewController id="8Si-72-FGO" customClass="ToDoViewController" customModule="focalStarFinalProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sg4-Cz-cRe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,10 +199,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="770.75892857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Habit View Controller-->
         <scene sceneID="6iT-Uw-ruZ">
             <objects>
-                <viewController id="lQL-x1-LPo" sceneMemberID="viewController">
+                <viewController id="lQL-x1-LPo" customClass="HabitViewController" customModule="focalStarFinalProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ckj-cV-Wo0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -407,11 +407,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrO-He-q4c">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrO-He-q4c">
                                 <rect key="frame" x="72" y="63" width="284" height="70.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="JrO-He-q4c" secondAttribute="height" multiplier="284:127" id="kS9-0k-4q7"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Hello!">
                                         <attributes>
@@ -422,10 +420,11 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPm-oF-QoO">
-                                <rect key="frame" x="22" y="141" width="152" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPm-oF-QoO">
+                                <rect key="frame" x="20" y="139" width="201" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Today is ...">
+                                    <fragment content="Today is">
                                         <attributes>
                                             <font key="NSFont" size="30" name="Futura-MediumItalic"/>
                                         </attributes>
@@ -537,29 +536,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Nq-LZ-HNs">
-                                <rect key="frame" x="126" y="183" width="213" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3q-2V-A4P">
+                                <rect key="frame" x="150" y="141" width="211" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Today's Date">
+                                        <attributes>
+                                            <font key="NSFont" size="26" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Today's Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3q-2V-A4P">
-                                <rect key="frame" x="182" y="140" width="161" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Nq-LZ-HNs">
+                                <rect key="frame" x="88" y="177" width="258" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.92892270226703777" green="0.93989407703276739" blue="0.96432415222880818" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="JrO-He-q4c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="hKo-n1-ah5"/>
-                            <constraint firstItem="HPm-oF-QoO" firstAttribute="top" secondItem="JrO-He-q4c" secondAttribute="bottom" constant="47.5" id="mLr-Qh-7Ch"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="C0z-4S-Nu0"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="w3q-2V-A4P" id="6dd-aX-vUN"/>
+                        <outlet property="timeLabel" destination="8Nq-LZ-HNs" id="3Ay-fB-4v8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -567,7 +572,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="E0t-NY-xbf"/>
+        <segue reference="nYr-qJ-EuM"/>
         <segue reference="Q8V-8t-hbB"/>
         <segue reference="lg9-O3-tFB"/>
         <segue reference="7vk-8s-VCG"/>
