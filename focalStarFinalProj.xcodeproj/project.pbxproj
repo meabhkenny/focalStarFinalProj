@@ -14,6 +14,7 @@
 		BD09A6CB2899A1D9001ECF78 /* focalStarFinalProj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD09A6C92899A1D9001ECF78 /* focalStarFinalProj.xcdatamodeld */; };
 		BD09A6CD2899A1D9001ECF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD09A6CC2899A1D9001ECF78 /* Assets.xcassets */; };
 		BD09A6D02899A1D9001ECF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD09A6CE2899A1D9001ECF78 /* LaunchScreen.storyboard */; };
+		BD09A6FB289C26CF001ECF78 /* AffirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09A6FA289C26CF001ECF78 /* AffirmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD09A6CC2899A1D9001ECF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD09A6CF2899A1D9001ECF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD09A6D12899A1D9001ECF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD09A6FA289C26CF001ECF78 /* AffirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BD09A6C22899A1D9001ECF78 /* SceneDelegate.swift */,
 				BD09A6C42899A1D9001ECF78 /* ViewController.swift */,
 				BD09A6C62899A1D9001ECF78 /* Main.storyboard */,
+				BD09A6FA289C26CF001ECF78 /* AffirmViewController.swift */,
 				BD09A6CC2899A1D9001ECF78 /* Assets.xcassets */,
 				BD09A6CE2899A1D9001ECF78 /* LaunchScreen.storyboard */,
 				BD09A6D12899A1D9001ECF78 /* Info.plist */,
@@ -144,6 +147,7 @@
 				BD09A6C52899A1D9001ECF78 /* ViewController.swift in Sources */,
 				BD09A6C12899A1D9001ECF78 /* AppDelegate.swift in Sources */,
 				BD09A6C32899A1D9001ECF78 /* SceneDelegate.swift in Sources */,
+				BD09A6FB289C26CF001ECF78 /* AffirmViewController.swift in Sources */,
 				BD09A6CB2899A1D9001ECF78 /* focalStarFinalProj.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
