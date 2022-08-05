@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC7CEBF289D6BB100C816B7 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7CEBE289D6BB100C816B7 /* AddToDoViewController.swift */; };
+		1FC7CEC1289D6BC500C816B7 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7CEC0289D6BC500C816B7 /* CompleteToDoViewController.swift */; };
+		1FC7CEC3289D6BDC00C816B7 /* ToDo.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7CEC2289D6BDB00C816B7 /* ToDo.swift .swift */; };
+		1FC7CEC5289D6BE400C816B7 /* ToDoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7CEC4289D6BE400C816B7 /* ToDoTableTableViewController.swift */; };
 		BD09A6C12899A1D9001ECF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09A6C02899A1D9001ECF78 /* AppDelegate.swift */; };
 		BD09A6C32899A1D9001ECF78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09A6C22899A1D9001ECF78 /* SceneDelegate.swift */; };
 		BD09A6C52899A1D9001ECF78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD09A6C42899A1D9001ECF78 /* ViewController.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FC7CEBE289D6BB100C816B7 /* AddToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddToDoViewController.swift; path = ../../ToDoProject/ToDoProject/AddToDoViewController.swift; sourceTree = "<group>"; };
+		1FC7CEC0289D6BC500C816B7 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompleteToDoViewController.swift; path = ../../ToDoProject/ToDoProject/CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		1FC7CEC2289D6BDB00C816B7 /* ToDo.swift .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ToDo.swift .swift"; path = "../../ToDoProject/ToDoProject/ToDo.swift .swift"; sourceTree = "<group>"; };
+		1FC7CEC4289D6BE400C816B7 /* ToDoTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoTableTableViewController.swift; path = ../../ToDoProject/ToDoProject/ToDoTableTableViewController.swift; sourceTree = "<group>"; };
 		BD09A6BD2899A1D9001ECF78 /* focalStarFinalProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = focalStarFinalProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD09A6C02899A1D9001ECF78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD09A6C22899A1D9001ECF78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +82,10 @@
 				CD9E11B6289C3AD300475975 /* CalendarViewController.swift */,
 				CD9E11B8289C3AE200475975 /* ToDoViewController.swift */,
 				BD09A6FA289C26CF001ECF78 /* AffirmViewController.swift */,
+				1FC7CEBE289D6BB100C816B7 /* AddToDoViewController.swift */,
+				1FC7CEC0289D6BC500C816B7 /* CompleteToDoViewController.swift */,
+				1FC7CEC4289D6BE400C816B7 /* ToDoTableTableViewController.swift */,
+				1FC7CEC2289D6BDB00C816B7 /* ToDo.swift .swift */,
 				BD09A6CC2899A1D9001ECF78 /* Assets.xcassets */,
 				BD09A6CE2899A1D9001ECF78 /* LaunchScreen.storyboard */,
 				BD09A6D12899A1D9001ECF78 /* Info.plist */,
@@ -155,11 +167,15 @@
 			files = (
 				CD9E11B7289C3AD300475975 /* CalendarViewController.swift in Sources */,
 				BD09A6C52899A1D9001ECF78 /* ViewController.swift in Sources */,
+				1FC7CEC3289D6BDC00C816B7 /* ToDo.swift .swift in Sources */,
 				BD09A6C12899A1D9001ECF78 /* AppDelegate.swift in Sources */,
 				CD9E11BB289C3AF200475975 /* HabitViewController.swift in Sources */,
+				1FC7CEBF289D6BB100C816B7 /* AddToDoViewController.swift in Sources */,
 				BD09A6C32899A1D9001ECF78 /* SceneDelegate.swift in Sources */,
+				1FC7CEC1289D6BC500C816B7 /* CompleteToDoViewController.swift in Sources */,
 				BD09A6FB289C26CF001ECF78 /* AffirmViewController.swift in Sources */,
 				BD09A6CB2899A1D9001ECF78 /* focalStarFinalProj.xcdatamodeld in Sources */,
+				1FC7CEC5289D6BE400C816B7 /* ToDoTableTableViewController.swift in Sources */,
 				CD9E11B9289C3AE200475975 /* ToDoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +358,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

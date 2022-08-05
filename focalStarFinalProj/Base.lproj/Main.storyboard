@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -183,9 +184,6 @@
                                     <backgroundConfiguration key="background" image="list.bullet.rectangle.portrait" catalog="system"/>
                                     <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="9pf-xf-zIN" kind="presentation" modalPresentationStyle="fullScreen" id="b6h-i6-gzd"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39p-Je-DIK">
                                 <rect key="frame" x="344" y="785" width="55" height="51"/>
@@ -276,6 +274,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qww-8g-W5P">
+                                <rect key="frame" x="146" y="263" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="9pf-xf-zIN" kind="presentation" modalPresentationStyle="fullScreen" id="uQg-Vd-Brz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lr3-1O-N48"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.94117647410000005" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -772,12 +779,12 @@
                     <navigationItem key="navigationItem" title="To Do List" id="lEX-ps-p0x">
                         <barButtonItem key="rightBarButtonItem" title="+" id="Pu5-mh-qkX">
                             <connections>
-                                <segue destination="ULV-IN-tqo" kind="presentation" modalPresentationStyle="fullScreen" id="Q44-91-6om"/>
+                                <segue destination="ULV-IN-tqo" kind="show" id="Q44-91-6om"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="nAd-Za-ml2" kind="presentation" identifier="moveToComplete" modalPresentationStyle="fullScreen" id="mNb-dU-bEB"/>
+                        <segue destination="nAd-Za-ml2" kind="show" identifier="moveToComplete" id="mNb-dU-bEB"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cu-Ry-3hC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -847,6 +854,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Click here to add the ToDo!">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="addTapped:" destination="ULV-IN-tqo" eventType="touchUpInside" id="spt-k1-918"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vOV-mR-8tm"/>
@@ -856,6 +866,7 @@
                     <navigationItem key="navigationItem" id="aD1-df-Ywj"/>
                     <connections>
                         <outlet property="importantSwitch" destination="URP-o8-b1k" id="Ee4-T5-feu"/>
+                        <outlet property="titleTextField" destination="sXo-RN-vgr" id="roN-hx-IM3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OKB-O9-0Er" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -928,11 +939,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nYr-qJ-EuM"/>
-        <segue reference="Hyg-A6-4b2"/>
-        <segue reference="TBG-Cj-HOS"/>
-        <segue reference="JNY-OH-6M7"/>
-        <segue reference="qdl-10-INl"/>
+        <segue reference="kgs-Ug-Yjo"/>
+        <segue reference="Q8V-8t-hbB"/>
+        <segue reference="lg9-O3-tFB"/>
+        <segue reference="7vk-8s-VCG"/>
+        <segue reference="f1w-gp-t4T"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="calendar" catalog="system" width="128" height="106"/>
