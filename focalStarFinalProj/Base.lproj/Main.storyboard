@@ -228,7 +228,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVl-dv-aeg">
-                                <rect key="frame" x="56" y="101" width="98" height="50"/>
+                                <rect key="frame" x="43" y="92" width="98" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="To-Do">
@@ -275,10 +275,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qww-8g-W5P">
-                                <rect key="frame" x="146" y="263" width="67" height="31"/>
+                                <rect key="frame" x="180" y="383" width="54" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <backgroundConfiguration key="background" image="note" catalog="system"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="9pf-xf-zIN" kind="presentation" modalPresentationStyle="fullScreen" id="uQg-Vd-Brz"/>
                                 </connections>
@@ -940,15 +942,16 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="kgs-Ug-Yjo"/>
-        <segue reference="Q8V-8t-hbB"/>
-        <segue reference="lg9-O3-tFB"/>
+        <segue reference="Uww-l2-wly"/>
+        <segue reference="bS8-mi-5ms"/>
         <segue reference="7vk-8s-VCG"/>
-        <segue reference="f1w-gp-t4T"/>
+        <segue reference="dek-Sf-3hj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="list.bullet.rectangle.portrait" catalog="system" width="115" height="128"/>
+        <image name="note" catalog="system" width="128" height="106"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="sparkles" catalog="system" width="112" height="128"/>
         <image name="target" catalog="system" width="128" height="121"/>
