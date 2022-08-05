@@ -591,9 +591,9 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.4033061053" green="0.61419657289999996" blue="0.87296476069999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Welcome!">
+                                    <fragment content="Focal Star">
                                         <attributes>
-                                            <color key="NSColor" red="0.082626644228444859" green="0.52538005553582612" blue="0.94241576162202811" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.13979756585578193" green="0.37403179047780077" blue="0.80588570820916561" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="54" name="Futura-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -716,14 +716,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3q-2V-A4P">
-                                <rect key="frame" x="125" y="245" width="164" height="36"/>
+                                <rect key="frame" x="52" y="245" width="297" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Today's Date">
                                         <attributes>
-                                            <color key="NSColor" red="0.69861640784314349" green="0.51557968560904777" blue="0.94241576162202811" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.97735454126731636" green="0.33541004804206759" blue="0.9190390649833371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="26" name="Futura-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -942,10 +942,10 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="kgs-Ug-Yjo"/>
-        <segue reference="Uww-l2-wly"/>
-        <segue reference="bS8-mi-5ms"/>
+        <segue reference="Q8V-8t-hbB"/>
+        <segue reference="lg9-O3-tFB"/>
         <segue reference="7vk-8s-VCG"/>
-        <segue reference="dek-Sf-3hj"/>
+        <segue reference="f1w-gp-t4T"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="calendar" catalog="system" width="128" height="106"/>
